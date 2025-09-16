@@ -36,7 +36,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./modal-login/temp-data:/home/gensyn/rl_swarm/modal-login/temp-data:ro
+      - ./modal-login/temp-data:/home/gensyn/rl_swarm/modal-login/temp-data
       - ./:/home/gensyn/rl_swarm/keys
       - ./configs:/home/gensyn/rl_swarm/configs
       - ./logs:/home/gensyn/rl_swarm/logs
